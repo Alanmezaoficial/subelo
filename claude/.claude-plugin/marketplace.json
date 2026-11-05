@@ -1,0 +1,13 @@
+{
+  "name": "alanmeza-subelo",
+  "owner": {
+    "name": "Alanmeza.ai"
+  },
+  "plugins": [
+    {
+      "name": "subelo",
+      "source": "./",
+      "description": "Súbelo · Manos a la Obra"
+    }
+  ]
+}

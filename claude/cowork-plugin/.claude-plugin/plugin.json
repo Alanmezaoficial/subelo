@@ -1,6 +1,6 @@
 {
   "name": "subelo-web",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "Puts a web page online, free, without a terminal. Checks the page first for the things that break it once it's live.",
   "author": {
     "name": "Enrique Rocha",
@@ -9,5 +9,13 @@
   "homepage": "https://github.com/Hainrixz/all-deploy",
   "repository": "https://github.com/Hainrixz/all-deploy",
   "license": "MIT",
-  "keywords": ["deploy", "static site", "hosting", "website", "github pages", "cloudflare pages", "netlify"]
+  "keywords": [
+    "deploy",
+    "static site",
+    "hosting",
+    "website",
+    "github pages",
+    "cloudflare pages",
+    "netlify"
+  ]
 }
