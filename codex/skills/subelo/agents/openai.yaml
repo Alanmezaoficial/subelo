@@ -1,0 +1,8 @@
+interface:
+  icon_large: "./assets/icon.svg"
+  display_name: "Súbelo"
+  short_description: "Preview verificado y producción con aprobación explícita."
+  brand_color: "#2563EB"
+  default_prompt: "Usa $subelo para preparar y publicar un preview verificado de este proyecto."
+policy:
+  allow_implicit_invocation: true

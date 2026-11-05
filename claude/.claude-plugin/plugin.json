@@ -1,0 +1,9 @@
+{
+  "name": "subelo",
+  "version": "1.0.0",
+  "description": "Prepara, comprueba y lleva tu proyecto a su destino.",
+  "author": {
+    "name": "Alanmeza.ai"
+  },
+  "license": "MIT"
+}

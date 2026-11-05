@@ -1,0 +1,13 @@
+{
+  "name": "alanmeza-subelo",
+  "owner": {
+    "name": "Alanmeza.ai"
+  },
+  "plugins": [
+    {
+      "name": "subelo",
+      "source": "./claude",
+      "description": "Prepara, comprueba y lleva tu proyecto a su destino."
+    }
+  ]
+}

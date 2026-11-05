@@ -1,0 +1,306 @@
+{
+  "editionVersion": "1.0.0",
+  "upstream": {
+    "repository": "https://github.com/Hainrixz/all-deploy",
+    "commit": "0d35225e2e70aaa57c5141a5131b9927911d86a0"
+  },
+  "installedBase": {
+    "name": "all-deploy",
+    "files": [
+      {
+        "path": "assets/templates/docker-compose.example.yml",
+        "sha256": "d878751dde86cbd4bc8fda9c77641128ffc683d5347c20ae87ad93c9f7f40425"
+      },
+      {
+        "path": "assets/templates/Dockerfile.node",
+        "sha256": "3e336dd9857026be5de44456b4c1cf5d9f8ddbdb4cdd0d608b17a0020d8352c9"
+      },
+      {
+        "path": "assets/templates/Dockerfile.python",
+        "sha256": "c94a0e8561b4e0d126c1518411c448966a5bac0d7a004807797a7ff66a86bd6b"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "b4351865e1065cbd2c97bda20a4a94d167621f96cae934f738a5d326fbd2b68a"
+      },
+      {
+        "path": "references/agents.md",
+        "sha256": "b3c80329e4bf9cb9fe88b64f37cff9a7279b87dc5bac3e176c5d56095e750a6b"
+      },
+      {
+        "path": "references/audit-checklist.md",
+        "sha256": "6dba618454a28cd4b22201fb0db0343704152063f4526015b1605c81252169ed"
+      },
+      {
+        "path": "references/env-mapping.md",
+        "sha256": "da501263099ecdb86900e43a879d027715b7c3ec6fc5f1c52cbfd5fff170440c"
+      },
+      {
+        "path": "references/project-types.md",
+        "sha256": "14524938fa4cfd25c5d296edb0c9feaaadf091a555f56f5a21d468c70edc4dfb"
+      },
+      {
+        "path": "references/targets/cloudflared-tunnel.md",
+        "sha256": "94479b84ce222e6b7474ccab3a54cadb15a0f6254250c0a5b7876f121fc9b79a"
+      },
+      {
+        "path": "references/targets/docker-vps.md",
+        "sha256": "be379720927a9a49f4ed61668b9205dc4c5a423c5b2a638f99890363b9b4e73d"
+      },
+      {
+        "path": "references/targets/railway.md",
+        "sha256": "0e51dbd9ef4ae43d4b8908e49e6f00e719a3f715b3aff61abde0918859286c25"
+      },
+      {
+        "path": "references/targets/vercel.md",
+        "sha256": "e78a9eb6fe1f8cb6c2b5a3229be10d2b99d39ab1bbac64bdf96b8e75dc720e2f"
+      },
+      {
+        "path": "scripts/audit.py",
+        "sha256": "299f8de31efcbd006954d9652afbc24b919cdf8b25427ea8d8484db9c4a3a3c0"
+      },
+      {
+        "path": "scripts/env_extract.py",
+        "sha256": "2eb6f16d4517873b38a98d1b49f4c79f2f101789999e2f3b9eb51cc715f8f20c"
+      },
+      {
+        "path": "SKILL.md",
+        "sha256": "d7ec5f011d27dba57d1dd2e408784aba8640fbcefb79f808201c52bb28ad2252"
+      },
+      {
+        "path": "tests/test_audit.py",
+        "sha256": "631c347162f703f1bbbb523927b42783f9ecfd1ac0bb4226c268683b5e2ef2f7"
+      },
+      {
+        "path": "tests/test_env_extract.py",
+        "sha256": "5e7265d0eb6f375f1c877ce4a27626c0c851258726d0dd3c051ee20f4862b8bb"
+      },
+      {
+        "path": "tests/validate_skill.py",
+        "sha256": "062383a44241be6bc31ea66789d7a161814734e2fd36cc5858260f5ed08fd917"
+      }
+    ]
+  },
+  "upstreamFiles": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "sha256": "9295c11030cb3b0ef87ab4f47fe5a3b6a88dc1f3e45bc0c24991a64064c48e28"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "dfc1437c87d701a6237d7ad35164c36f09877c5b40f080ac59a67c4c3216245a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/target-request.yml",
+      "sha256": "c9712985c9b9447b1813726526f1dc91ce6d3bd480fe1de45d6975dd0d9c49ea"
+    },
+    {
+      "path": ".github/social-preview.png",
+      "sha256": "3a52cbc38c82a071a63104832cad57febf8853fc5e067b90003d83601ee8bc89"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "53231b84c47a0f9d028baee0fa158af7abc206379b0712ecd1ca002d14b2ccec"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "3f69aa63bbfc991b9df54c026def00bacd673b8f4b00676f5fe47d5deede13dc"
+    },
+    {
+      "path": "assets/templates/.env.example.template",
+      "sha256": "858079ca9daf55a8e731f5436790f5c4c102c088df653b413a9008d2795d2237"
+    },
+    {
+      "path": "assets/templates/docker-compose.example.yml",
+      "sha256": "8192f9afc28a0e47859a50187bc7cffd6104605cc9584ffdd95d62ca61e8e7be"
+    },
+    {
+      "path": "assets/templates/Dockerfile.node",
+      "sha256": "82f089abbb63bc219f839c7cf607e3ff7b297945c204d6dbc3e5d3896bfc9187"
+    },
+    {
+      "path": "assets/templates/Dockerfile.python",
+      "sha256": "41c71246f410383b3851be4906efd8bf079e46ee28407acb6ac4ce84238efcef"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "fcb667c9fd1560e12d0a2434367e8f1faca457ead5e7ef15556bd56418541c14"
+    },
+    {
+      "path": "cowork-plugin/.claude-plugin/plugin.json",
+      "sha256": "188ff9a4e5cad2c8b9f525bf7353c187c8356b55d889d25ab0ff8bcf9805c426"
+    },
+    {
+      "path": "cowork-plugin/README.md",
+      "sha256": "4a178f4022bcc3adc4d0d46ae00f106b1f6e001d0ca171455dbe9e1b0bbc8f95"
+    },
+    {
+      "path": "cowork-plugin/skills/publish-website/references/custom-domain.md",
+      "sha256": "4791de4f3222d33d4c535507f19049a196dac6ef426685b982eef64eee99f515"
+    },
+    {
+      "path": "cowork-plugin/skills/publish-website/references/hosts.md",
+      "sha256": "f7fa7fb3f7a89255553d3d4ec0e3f1b1515e9fc6c5fa289c3a22c68700c2aa34"
+    },
+    {
+      "path": "cowork-plugin/skills/publish-website/scripts/static_check.py",
+      "sha256": "7ed6cf8d6598979505e82521c57add39ca87b7c4255f4de06cca0aea41e23f60"
+    },
+    {
+      "path": "cowork-plugin/skills/publish-website/SKILL.md",
+      "sha256": "b59dfcf51f73fb422846227bfe04c1cdc46c5ee1f4703f9d887b51dd1f768e47"
+    },
+    {
+      "path": "docs/badges/claude-code-skill.svg",
+      "sha256": "2b6746c0b9cdfb1cd0e1c1962ea4baea0d4e4ba26cec45e19a7d4ca100a1ec22"
+    },
+    {
+      "path": "docs/badges/generate.py",
+      "sha256": "337d9fa69780deac9578a93f2222cb12ac77e6bd5fbd2a9d3673ece1b565c137"
+    },
+    {
+      "path": "docs/badges/license.svg",
+      "sha256": "26a76a02e7f6c6a12e0a9bb7944a249a528ecbe4b48ac6dd0287fc125f40117a"
+    },
+    {
+      "path": "docs/demo-recording.md",
+      "sha256": "ea41387d68e8e33673dc0f1bdbecd6d042e035609c512551ef0d89b0db869f1d"
+    },
+    {
+      "path": "docs/images/audit.png",
+      "sha256": "9c2707e5562ec66a5e13ef45c71fe6e63246b23c650540be8e93788d97293c7f"
+    },
+    {
+      "path": "docs/images/community.png",
+      "sha256": "f85052a1a1165b23ff6410e549575f31b9ee1dfcb79966f673c5d294b0c49c23"
+    },
+    {
+      "path": "docs/images/deploy.png",
+      "sha256": "2ae62a8020b248031d34a30f2b58e08dc74480ab3d0674f7a35743ad55c0c770"
+    },
+    {
+      "path": "docs/images/detect.png",
+      "sha256": "b9891bfe112ec5adbb304666247cfcb86cbc96b9aa79e519361cc34d42d51920"
+    },
+    {
+      "path": "docs/images/hero.png",
+      "sha256": "9b8c00d593d0d6a63630bed465aeb425d5971a15df726edd06f1be7c77b65c61"
+    },
+    {
+      "path": "docs/images/local.png",
+      "sha256": "ec92f3b5b40423501fa95d388569e67cf7c483730b813b0bdc86f832af2de275"
+    },
+    {
+      "path": "docs/images/rollback.png",
+      "sha256": "96d9ccc60959c6e050e065ea6753b964481ade4c4e1e9f8275fd3dd8a28805c9"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ff93e3179334a96093844680aa971db884eecc66bcc5600bb59d1444f044355b"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "c5ee62ac97007d14b646345f92b4a4bbc4c8974d91302ba74a707101a56e35c6"
+    },
+    {
+      "path": "README.md",
+      "sha256": "8a81f4cd19ea6db23b6ed81efb162dbe412ce1db65347b077b5f76724dbf2c23"
+    },
+    {
+      "path": "references/agents.md",
+      "sha256": "5e85daf93da10830b21ceae1157cdf4b7f8ce40c40cb7e999daaa6f0378d74df"
+    },
+    {
+      "path": "references/audit-checklist.md",
+      "sha256": "aba6503fe962b710f4cfaa9c37c717742ac4f5dfd871cab7f4404723512133b2"
+    },
+    {
+      "path": "references/custom-domain.md",
+      "sha256": "4791de4f3222d33d4c535507f19049a196dac6ef426685b982eef64eee99f515"
+    },
+    {
+      "path": "references/env-mapping.md",
+      "sha256": "33991b4a4f965d99ed4f4d0df890cd65569ef2d6401893ac7796eba68cb69266"
+    },
+    {
+      "path": "references/project-types.md",
+      "sha256": "959ef64da5fc55312e3befbf83469ad0573fe2b8dfb7ca2e700a97b19ddd7551"
+    },
+    {
+      "path": "references/static-hosting.md",
+      "sha256": "4e650daaaa5d64eec7b7131bd369087b5cf9526ac811875608b263e518aeb083"
+    },
+    {
+      "path": "references/static-sites.md",
+      "sha256": "88c979ae6eb27e484c8db4228f66e08d474a7dbb1382619361b0925d33e05e40"
+    },
+    {
+      "path": "references/targets/cloudflare-pages.md",
+      "sha256": "26d969d37aeaea932ce1e5a892ea6efa94ad8eac7ac82ff44292eba37e937f8d"
+    },
+    {
+      "path": "references/targets/cloudflared-tunnel.md",
+      "sha256": "9a9a870be75ee6eb98c501b6ee5d4407abe1d86d8f686c453747be89aebc9d9c"
+    },
+    {
+      "path": "references/targets/docker-vps.md",
+      "sha256": "7f10441f2c026f408395d38f462849d4c9dc9b98c269e63227a577c6fbc880ea"
+    },
+    {
+      "path": "references/targets/github-pages.md",
+      "sha256": "c7b9f5060d80209cd7a04de4a4cb1795bb190110c8b797475cdbee615dee0474"
+    },
+    {
+      "path": "references/targets/netlify.md",
+      "sha256": "5aad9f0d71bba8d8e680eceb62e4ac3da1e8b784e46c5bfeda263a0dd8fe186c"
+    },
+    {
+      "path": "references/targets/railway.md",
+      "sha256": "9bfa81d158ff4b65b1138652c0d9791a3c367f77294fc3e4e76126d16d3cab53"
+    },
+    {
+      "path": "references/targets/render.md",
+      "sha256": "5396bdad9210de23a80430380114f532dac55424fa117d379e8517c1a7389006"
+    },
+    {
+      "path": "references/targets/vercel.md",
+      "sha256": "f74e8a0d716c27fe1919b825baeaabbf540753e2470eff6ae6aef2b171a4e9af"
+    },
+    {
+      "path": "scripts/audit.py",
+      "sha256": "e582981756ecfc027c839e1c05ffd9a12e127f4be7d6303930817bbaa6d22ff1"
+    },
+    {
+      "path": "scripts/env_extract.py",
+      "sha256": "e1b55b4786c848a47313d590f04713b6327ee770e4e21bdd920ea1b118678a29"
+    },
+    {
+      "path": "scripts/package_skill.py",
+      "sha256": "8ee6e18dd1444a63e882a6054029ce4a5d938bb7570615d515ddfee98718e025"
+    },
+    {
+      "path": "scripts/static_check.py",
+      "sha256": "7ed6cf8d6598979505e82521c57add39ca87b7c4255f4de06cca0aea41e23f60"
+    },
+    {
+      "path": "scripts/sync_cowork_plugin.py",
+      "sha256": "db5c08fa09eaa39e6d566c9bbf9b236ab97b94542d20e8214cade5e7c7cdfeb8"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "c13db70c18500a24ba7479a9b0ffce7b57128ba186c8ec1778af6a33e873a6e3"
+    },
+    {
+      "path": "tests/test_audit.py",
+      "sha256": "f547218c0411a80f0fa777d4077433c3818830a60248ca53f89d262faaa89522"
+    },
+    {
+      "path": "tests/test_env_extract.py",
+      "sha256": "8a75772fe534deed693655424470bdc04b1d42a024b614d15b2faa9184da544c"
+    },
+    {
+      "path": "tests/validate_skill.py",
+      "sha256": "9aa6927988cc396da6b4775fa2a7b8098b67b2268fe67bbe203c57804217762e"
+    }
+  ]
+}
